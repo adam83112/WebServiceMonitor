@@ -10,17 +10,17 @@ namespace WebServiceMonitor
 
         public List<WebService> Services { get; private set; }
 
-        public void AddObserver(IObserver o)
+        public void AddObserver(IObserver observer)
         {
-            observers.Add(o);
+            observers.Add(observer);
         }
 
-        public void RemoveObserver(IObserver o)
+        public void RemoveObserver(IObserver observer)
         {
-            observers.Remove(o);
+            observers.Remove(observer);
         }
 
-        public void NotifyObservers(List<WebService> webServices)
+        public void NotifyObservers(IEnumerable<WebService> webServices)
         {
             Services = webServices.Where(service => !service.IsOk).ToList();
             if (Services.Any())

@@ -7,7 +7,7 @@ namespace WebServiceMonitor
     {
         void AddObserver(IObserver o);
         void RemoveObserver(IObserver o);
-        void NotifyObservers(List<WebService> webServices);
+        void NotifyObservers(IEnumerable<WebService> webServices);
     }
 }
 
