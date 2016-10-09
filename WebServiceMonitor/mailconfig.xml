@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MailConfig>
+	<UserName>example@gmail.com</UserName>
+	<Address>example@gmail.com</Address>
+	<Password>example123</Password>
+	<Host>smtp.gmail.com</Host>
+	<EnableSsl>true</EnableSsl>
+	<Port>587</Port>
+	<UseDefaultCredentials>false</UseDefaultCredentials>
+	<DeliveryMethod>Network</DeliveryMethod>
+</MailConfig>

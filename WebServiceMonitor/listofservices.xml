@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServices>
+	<WebService>
+		<Name>calapi.inadiutorium.cz</Name>
+		<Url>http://calapi.inadiutorium.cz/api/v0/en/calendars/default</Url>
+	</WebService>
+	<WebService>
+		<Name>uinames.com</Name>
+		<Url>http://uinames.com/api/</Url>
+	</WebService>
+	<WebService>
+		<Name>wrong.page</Name>
+		<Url>http://wrong.page/</Url>
+	</WebService>
+</WebServices>
