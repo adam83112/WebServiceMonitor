@@ -17,7 +17,7 @@ namespace WebServiceMonitor
             this.fileName = fileName;
         }
 
-        public List<MailAddress> GetList()
+        public List<MailAddress> GetMailAddresses()
         {
             string testData = File.ReadAllText(fileName);
 

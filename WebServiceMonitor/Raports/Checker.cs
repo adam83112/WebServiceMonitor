@@ -49,7 +49,7 @@ namespace WebServiceMonitor
         public static void Start()
         {
             var webServicesConfig = new WebServicesConfig("listofservices.xml");
-            WebServiceList = webServicesConfig.GetList();
+            WebServiceList = webServicesConfig.GetWebServices();
 
             var thread = new Thread(() =>
                 {

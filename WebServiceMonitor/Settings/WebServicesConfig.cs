@@ -14,7 +14,7 @@ namespace WebServiceMonitor
 			this.fileName = fileName;
 		}
 
-		public List<WebService> GetList()
+		public List<WebService> GetWebServices()
 		{
 			string testData = File.ReadAllText(fileName);
 

@@ -18,7 +18,7 @@ namespace WebServiceMonitor
 
         public void Notify()
         {
-            var recipients = new MaliningListConfig("emails.xml").GetList();
+            var recipients = new MaliningListConfig("emails.xml").GetMailAddresses();
          
             string subject = "Some services are not working!";
 
